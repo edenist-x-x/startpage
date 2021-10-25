@@ -1,82 +1,56 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Banner from "../components/Banner";
+import Header from "../components/Header";
+import LargeCard from "../components/LargeCard";
+import MediumCard from "../components/MediumCard";
+import SmallCard from "../components/SmallCard";
+import newsList from "../dummy/newsList.json";
+import portalList from "../dummy/portalList.json";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
+      <Header />
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
+      <Banner />
 
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
+      {/* Main */}
+      <main className="max-w-7xl mx-auto px-8 sm:px-16">
+        <section className="pt-8">
+          <h2 className="text-2xl font-semibold pb-5 sm:ml-12 md:ml-12 lg:ml-20 ">뉴스</h2>
 
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
+          {/* Pull some data from a server -API endpoints */}
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 ">
+            {newsList?.map(({ no, url, name, img }) => (
+              <SmallCard key={no} url={url} name={name} img={img} />
+            ))}
+          </div>
+        </section>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
+        {/* Card section  */}
+        <section>
+          <h2 className="text-2xl font-semibold py-8 mt-4 sm:ml-12 md:ml-12 lg:ml-20">
+            포털 사이트
+          </h2>
+          <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3 md:ml-8 lg:ml-16">
+            {portalList?.map(({ no, url, name, img }) => (
+              <MediumCard key={no} url={url} name={name} img={img} />
+            ))}
+          </div>
+        </section>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+        <LargeCard
+          img="https://links.papareact.com/4cj"
+          title="항상 감사합니다"
+          // description="Wishlists curated by Airbnb"
+          buttonText="for Last Lee"
+        />
       </main>
-
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
     </div>
-  )
+  );
 }

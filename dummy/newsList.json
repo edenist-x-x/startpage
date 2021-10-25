@@ -1,0 +1,110 @@
+[
+  {
+    "no": 1,
+    "url": "https://newsstand.naver.com/?list=&pcode=314",
+    "name": "스포츠동아",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2013/0813/nsd114516931.gif"
+  },
+  {
+    "no": 2,
+    "url": "https://newsstand.naver.com/?list=&pcode=032",
+    "name": "경향신문",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2014/0213/nsd13388620.gif"
+  },
+  {
+    "no": 3,
+    "url": "https://newsstand.naver.com/?list=&pcode=055",
+    "name": "SBS",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2013/0813/nsd11419129.gif"
+  },
+  {
+    "no": 4,
+    "url": "https://newsstand.naver.com/?list=&pcode=904",
+    "name": "JTBC",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2013/0813/nsd114014931.gif"
+  },
+  {
+    "no": 5,
+    "url": "https://newsstand.naver.com/?list=&pcode=052",
+    "name": "YTN",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2014/0407/nsd163932956.gif"
+  },
+  {
+    "no": 6,
+    "url": "https://newsstand.naver.com/?list=&pcode=016",
+    "name": "헤럴드경제",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2013/0813/nsd114420405.gif"
+  },
+  {
+    "no": 7,
+    "url": "https://newsstand.naver.com/?list=&pcode=038",
+    "name": "한국일보",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2016/0325/nsd185817651.png"
+  },
+  {
+    "no": 8,
+    "url": "https://newsstand.naver.com/?list=&pcode=028",
+    "name": "한겨례",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2013/0813/nsd113743944.gif"
+  },
+  {
+    "no": 9,
+    "url": "https://newsstand.naver.com/?list=&pcode=023",
+    "name": "조선일보",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2020/1030/nsd203636910.png"
+  },
+  {
+    "no": 10,
+    "url": "https://newsstand.naver.com/?list=&pcode=056",
+    "name": "KBS",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2013/0813/nsd114029379.gif"
+  },
+  {
+    "no": 11,
+    "url": "https://newsstand.naver.com/?list=&pcode=422",
+    "name": "연합뉴스TV",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2016/0325/nsd185542284.png"
+  },
+  {
+    "no": 12,
+    "url": "https://newsstand.naver.com/?list=&pcode=009",
+    "name": "매일경제",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2016/0325/nsd185254610.png"
+  },
+  {
+    "no": 13,
+    "url": "https://newsstand.naver.com/?list=&pcode=020",
+    "name": "동아일보",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2013/0813/nsd111048277.gif"
+  },
+  {
+    "no": 14,
+    "url": "https://newsstand.naver.com/?list=&pcode=214",
+    "name": "MBC",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2013/0813/nsd114044142.gif"
+  },
+  {
+    "no": 15,
+    "url": "https://newsstand.naver.com/?list=&pcode=327",
+    "name": "뉴데일리",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2013/0819/nsd182741916.gif"
+  },
+  {
+    "no": 16,
+    "url": "https://newsstand.naver.com/?list=&pcode=215",
+    "name": "한국경제TV",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2013/0813/nsd113954116.gif"
+  },
+  {
+    "no": 17,
+    "url": "https://newsstand.naver.com/?list=&pcode=014",
+    "name": "파이낸셜뉴스",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2020/0212/nsd171312617.png"
+  },
+  {
+    "no": 18,
+    "url": "https://newsstand.naver.com/?list=&pcode=088",
+    "name": "매일신문",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2016/0818/nsd164941546.png"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "no": 1,
+    "url": "https://naver.com",
+    "name": "네이버",
+    "img": "https://cdn.imweb.me/upload/S201901075c32e032b9fbb/ea81e529156e8.png"
+  },
+  {
+    "no": 2,
+    "url": "https://kakao.com",
+    "name": "카카오",
+    "img": "http://res.heraldm.com/content/image/2020/11/05/20201105000076_0.jpg"
+  },
+  {
+    "no": 3,
+    "url": "https://google.com",
+    "name": "구글",
+    "img": "http://clipart-library.com/images/pi5re74KT.png"
+  }
+]
