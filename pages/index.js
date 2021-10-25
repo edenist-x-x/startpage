@@ -6,8 +6,14 @@ import MediumCard from "../components/MediumCard";
 import SmallCard from "../components/SmallCard";
 import newsList from "../dummy/newsList.json";
 import portalList from "../dummy/portalList.json";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="">
       <Head>
@@ -21,7 +27,7 @@ export default function Home() {
 
       {/* Main */}
       <main className="max-w-7xl mx-auto px-8 sm:px-16">
-        <section className="pt-8">
+        <section data-aos="fade-up" className="pt-8">
           <h2 className="text-2xl font-semibold pb-5 sm:ml-12 md:ml-12 lg:ml-20 ">뉴스</h2>
 
           {/* Pull some data from a server -API endpoints */}
@@ -33,7 +39,7 @@ export default function Home() {
         </section>
 
         {/* Card section  */}
-        <section>
+        <section data-aos="fade-up">
           <h2 className="text-2xl font-semibold py-8 mt-4 sm:ml-12 md:ml-12 lg:ml-20">
             포털 사이트
           </h2>

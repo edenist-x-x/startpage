@@ -91,20 +91,21 @@
   },
   {
     "no": 16,
-    "url": "https://newsstand.naver.com/?list=&pcode=215",
-    "name": "한국경제TV",
-    "img": "https://ssl.pstatic.net/static/newsstand/up/2013/0813/nsd113954116.gif"
+    "url": "https://newsstand.naver.com/?list=&pcode=015",
+    "name": "한국경제",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2013/0813/nsd11441103.gif"
   },
   {
     "no": 17,
-    "url": "https://newsstand.naver.com/?list=&pcode=014",
-    "name": "파이낸셜뉴스",
-    "img": "https://ssl.pstatic.net/static/newsstand/up/2020/0212/nsd171312617.png"
-  },
-  {
-    "no": 18,
     "url": "https://newsstand.naver.com/?list=&pcode=088",
     "name": "매일신문",
     "img": "https://ssl.pstatic.net/static/newsstand/up/2016/0818/nsd164941546.png"
+  },
+  {
+    "no": 18,
+
+    "url": "https://newsstand.naver.com/?list=&pcode=014",
+    "name": "파이낸셜뉴스",
+    "img": "https://ssl.pstatic.net/static/newsstand/up/2020/0212/nsd171312617.png"
   }
 ]

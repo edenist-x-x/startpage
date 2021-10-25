@@ -7,6 +7,7 @@ module.exports = {
       "www.pikpng.com",
       "ssl.pstatic.net",
       "clipart-library.com",
+      "upload.wikimedia.org",
     ],
   },
 };
